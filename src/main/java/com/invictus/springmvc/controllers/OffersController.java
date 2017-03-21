@@ -8,8 +8,6 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-import javax.servlet.http.HttpSession;
-
 import java.util.List;
 import java.util.Map;
 
@@ -37,5 +35,11 @@ public class OffersController {
     public String createOffer() {
 
         return "createoffer";
+    }
+
+    @RequestMapping("/docreate")
+    public String doCreate() {
+
+        return "offercreated";
     }
 }
