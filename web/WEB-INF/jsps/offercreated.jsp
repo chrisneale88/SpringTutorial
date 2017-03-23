@@ -11,6 +11,6 @@
     <title>Title</title>
 </head>
 <body>
-
+Offer Created.
 </body>
 </html>
